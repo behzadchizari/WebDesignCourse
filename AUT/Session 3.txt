@@ -1,0 +1,12 @@
+img
+ul li
+css ...
+
+div
+
+width
+height
+color
+background-color
+margin
+padding
