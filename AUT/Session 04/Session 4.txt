@@ -1,5 +1,0 @@
-
-div
-background-color
-margin
-padding
