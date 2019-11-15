@@ -1,0 +1,146 @@
+﻿<html>
+<head>
+    <link href="./css/font-awesome.min.css" rel="stylesheet" />
+    <style>
+        @font-face {
+            src: url('./fonts/BYekan.ttf');
+            font-family: "b-yekan";
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            direction: rtl;
+            font-family: b-yekan;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .pull-left {
+            float: left;
+        }
+
+        .pull-right {
+            float: right;
+        }
+
+        .clear-float {
+            clear: both;
+        }
+
+        nav#top {
+            background-color: #2683e0;
+            height: 60px;
+        }
+
+            nav#top ul li {
+                display: inline-block;
+                padding: 15px;
+                color: white;
+            }
+
+        article {
+            width: 100%;
+            height: calc(100% - 60px);
+            /*height:100%;*/
+        }
+
+        aside {
+            width: 20%;
+            height: 100%;
+            background-color: #A5BDDA;
+        }
+
+            aside ul li {
+                padding: 10px 20px;
+                border-bottom: 1px solid #8ca4c0;
+                transition: all 600ms;
+            }
+
+                aside ul li:hover {
+                    background-color: #236783;
+                    color: #ffffff;
+                }
+
+                aside ul li i {
+                    margin-left: 5px;
+                }
+
+        section {
+            width: 80%;
+            height: 100%;
+            background-color: #5C7492;
+        }
+
+            section div#main {
+                height: calc(100% - 50px);
+                width: 100%;
+            }
+            section div#main p{
+                padding:10px;
+            }
+
+        footer {
+            height: 50px;
+            background-color: #2363a1;
+        }
+
+            footer p {
+                text-align: center;
+                padding: 10px 0px;
+            }
+    </style>
+</head>
+<body>
+    <nav id="top">
+        <ul class="pull-right">
+            <li>خانه</li>
+            <li>محصولات</li>
+            <li>تماس با ما</li>
+            <li>درباره ما</li>
+        </ul>
+        <ul class="pull-left">
+            <li>ثبت نام</li>|
+            <li>ورود</li>
+        </ul>
+        <div class="clear-float"></div>
+    </nav>
+    <article>
+        <aside class="pull-right">
+            <ul>
+                <li>
+                    <i class="fa fa-home"></i>
+                    خانه
+                </li>
+                <li>
+                    <i class="fa fa-th"></i>
+                    محصولات
+                </li>
+                <li>
+                    <i class="fa fa-phone"></i>
+                    تماس با ما
+                </li>
+                <li>
+                    <i class="fa fa-address-card"></i>
+                    درباره ما
+                </li>
+            </ul>
+        </aside>
+        <section class="pull-right">
+            <div id="main">
+                <p>
+                    لورم ایپسوم &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                </p>
+            </div>
+            <footer>
+                <p>
+                    <i class="fa fa-copyright"></i>
+                    حق چاپ محفوظ است
+                </p>
+            </footer>
+        </section>
+    </article>
+</body>
+</html>
