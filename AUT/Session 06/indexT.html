@@ -6,18 +6,17 @@
             direction: rtl;
         }
 
-        table,
-        td,
-        th {
-            border: 1px solid black;
+        table {
+            border: 2px solid black;
             border-collapse: collapse;
         }
 
-        td,
-        th {
+        td {
+            border: 1px solid black;
             padding: 10px 20px;
         }
 
+        /* 
         th {
             background: #CCC;
         }
@@ -29,20 +28,21 @@
         tr:nth-child(2n) td{
             background: #3a2828;
             color: white;
-        }
+        } */
+        */
     </style>
 </head>
 
 <body>
-    <table>
+    <table style="display: none;">
         <thead>
             <tr>
-                <th>ردیف</th>
-                <th>نام</th>
-                <th>نام خانوادگی</th>
-                <th>تلفن</th>
-                <th>سن</th>
-                <th>تاریخ تولد</th>
+                <th>ردیف </th>
+                <th>نام </th>
+                <th>نام خانوادگی </th>
+                <th>تلفن </th>
+                <th>سن </th>
+                <th>تاریخ تولد </th>
             </tr>
         </thead>
         <tbody>
@@ -104,6 +104,25 @@
                 <td>80-2-2</td>
             </tr>
         </tbody>
+
+    </table>
+
+
+    <table>
+        <tr>
+                <td>نام</td>
+                <td>نام خانوادگی</td>
+                <td>سن</td>
+                <td>شاره تماس</td>
+                <td>تاریخ تولد</td>
+        </tr>
+        <tr>
+            <td>علی</td>
+            <td>اصغری </td>
+            <td>20</td>
+            <td>09123456789</td>
+            <td>1300/1/1</td>
+        </tr>
 
     </table>
 </body>

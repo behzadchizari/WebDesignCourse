@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'yekan';
+    direction: rtl;
+}
+@font-face{
+    font-family: 'yekan';
+    src: url('../fonts/BYekan.ttf');
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 30px auto;
+}
+
+th,td {
+    border: 1px solid black;
+    padding: 5px 20px;
+}
+
+table thead tr:first-child th{
+background: #096683;
+color: blanchedalmond;
+}
+
+th.rotate{
+    padding: 20px 5px;
+}
+th.rotate div{
+    transform: rotate(90deg);
+}
