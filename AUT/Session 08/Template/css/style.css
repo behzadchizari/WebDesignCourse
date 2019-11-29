@@ -1,0 +1,102 @@
+@font-face {
+    src: url('../fonts/BYekan.ttf');
+    font-family: "b-yekan";
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+    font-family: b-yekan;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+p{
+    text-align: justify;
+}
+li {
+    list-style: none;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.clear-float {
+    clear: both;
+}
+
+nav#top {
+    background-color: #2683e0;
+    height: 60px;
+}
+
+nav#top ul li {
+    display: inline-block;
+    padding: 15px;
+    color: white;
+}
+
+article {
+    width: 100%;
+    height: calc(100% - 60px);
+    /*height:100%;*/
+}
+
+aside {
+    width: 20%;
+    height: 100%;
+    background-color: #A5BDDA;
+}
+
+aside ul li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #8ca4c0;
+    transition: all 600ms;
+}
+
+aside ul li:hover {
+    background-color: #236783;
+    color: #ffffff;
+}
+
+aside ul li i {
+    margin-left: 5px;
+}
+
+section {
+    width: 80%;
+    height: 100%;
+    background-color: #5C7492;
+}
+
+section div#main {
+    height: calc(100% - 50px);
+    width: 100%;
+}
+
+section div#main p {
+    padding: 10px;
+}
+
+footer {
+    height: 50px;
+    background-color: #2363a1;
+}
+#main{
+    overflow: auto;
+}
+/*#main section {
+    overflow: auto;
+} */
+
+footer p {
+    text-align: center;
+    padding: 10px 0px;
+}
