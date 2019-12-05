@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Pin</title>
+    <style>
+    .pin{
+        width: 100px;
+        height: 100px;
+        background: red;
+        border-radius: 50% 50% 0 50%;
+        transform: rotateZ(45deg);
+        position: relative;
+    }
+    .pin::before{
+        content: '';
+        width: 40px;
+        height: 40px;
+        background: darkred;
+        border-radius: 50%;
+        position: absolute;
+        top: calc(50% - 20px);
+        left: calc(50% - 20px);
+    }
+    </style>
+</head>
+<body>
+    <div class="pin"></div>
+</body>
+</html>
