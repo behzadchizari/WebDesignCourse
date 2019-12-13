@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(0, 217, 255);
+}
+
+.form-container {
+    width: 60%;
+    min-height: 200px;
+    margin: 100px auto;
+}
+
+.info {
+    width: 50%;
+    height: 500px;
+    background: rgb(7, 74, 151);
+    float: left;
+    border-radius: 20px 0 0 20px;
+}
+
+.register {
+    width: 50%;
+    height: 500px;
+    background: rgb(255, 255, 255);
+    float: left;
+    border-radius: 0 20px 20px 0;
+}
+
+.register-container {
+    padding: 20px;
+}
+
+.half-form-control {
+    width: 45%;
+    float: left;
+}
+
+.form-control {
+    padding: 10px;
+}
+
+.form-control input, .form-control textarea {
+    width: 100%;
+    outline: none;
+    border-radius: 15px;
+    padding: 10px 2px;
+    border: 1px solid #ccc;
+}
+
+.form-control input:focus, .form-control textarea:focus {
+    border-color: green;
+}
+
+.btn{
+    padding: 10px 20px;
+    border:none;
+    border-radius: 15px 0 15px 0;
+    background: green;
+    color: white;
+}
+
+.clearfix {
+    clear: both;
+}

@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "yekan";
+    src: url('../fonts/BYekan.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family: "yekan";
+}
+
+.side-slide {
+    width: 260px;
+    height: 360px;
+    background: rgb(245, 232, 214);
+    border-radius: 0 10px 10px 0;
+    position: absolute;
+    left: -300px;
+    padding: 20px;
+    transition: all 600ms;
+    z-index: 999;
+}
+
+.side-slide:hover {
+    left: 0px;
+}
+
+.side-slide:before {
+    width: 100px;
+    height: 30px;
+    background: inherit;
+    /* padding: 15px 30px; */
+    transform: rotate(90deg);
+    position: absolute;
+    right: -67px;
+    top: 60px;
+    border-radius: 10px 10px 0 0;
+    z-index: 0;
+    text-align: center;
+    padding-top: 7px;
+}
+
+
+.reg {
+    top: 30px;
+    background: rgb(245, 232, 214);
+}
+
+.reg:before {
+    content: 'ثبت نام';
+}
+
+.login {
+    top: 150px;
+    background: rgb(215, 245, 214);
+}
+
+.login:before {
+    content: 'ورود ';
+}
+
+.review {
+    top: 270px;
+    background: rgb(245, 214, 223);
+}
+
+.review:before {
+    content: 'نظرسنجی ';
+}
+
+
+
+input[type='text'],
+input[type='password'],
+input[type='email'],
+textarea {
+    width: 100%;
+    padding: 10px 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background: white;
+    outline: none;
+    transition: all 500ms;
+}
+
+input[type='text']:focus,
+input[type='password']:focus,
+input[type='email']:focus,
+textarea:focus {
+    border-bottom-color: rgb(47, 194, 125);
+}
+
+.btn {
+    padding: 10px 25px;
+    border: none;
+}
+
+.btn-green {
+    background: green;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-green:hover {
+    background: rgb(32, 172, 32);
+}
+
+.btn-red {
+    background: rgb(226, 13, 13);
+    color: white;
+    cursor: pointer;
+}
+
+.btn-red:hover {
+    background: rgb(236, 61, 61);
+}
+
+.input-form {
+    margin: 10px 0;
+}

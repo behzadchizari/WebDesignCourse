@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .image-container{
+            width: 800px;
+            height: 400px;
+            border: 2px solid;
+            position: relative;
+            overflow: hidden;
+        }
+        .overlay{
+            width: 800px;
+            height: 400px;
+            background: rgba(112, 112, 112,0.6);
+            /* background: rgb(112, 112, 112); */
+            /* opacity: 50%; */
+            position: absolute;
+            bottom: -400px;
+            transition: all 400ms;
+
+        }
+        .image-container:hover .overlay{
+            bottom: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="./images/pic3.jfif">
+        <div class="overlay">
+            <h1>LOREM</h1>
+        </div>
+    </div>
+</body>
+</html>
