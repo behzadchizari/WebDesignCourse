@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    background: url('../image/666288.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: auto;
+}
+
+.navbar {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+
+.navbar>ul {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.navbar>ul>li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 0;
+    margin: 0 10px;
+}
+
+.navbar>ul>li>a {
+    text-decoration: none;
+    color: #9a9496;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+li.dropdown {
+    position: relative;
+}
+
+li.dropdown a::after {
+    content: '\25BC';
+    font-size: 15px;
+    margin: 5px;
+}
+
+.dropdown-list {
+    width: 200px;
+    height: auto;
+    background: #3a3a3a;
+    position: absolute;
+    display: none;
+}
+
+li.dropdown:hover ul.dropdown-list {
+    display: block;
+}
+
+ul.dropdown-list li {
+    padding: 10px;
+    cursor: pointer;
+    color: bisque;
+}
+
+ul.dropdown-list li:hover {
+    background: #464545;
+}
+
+ul.dropdown-list li a::after {
+    content: none;
+}
+
+.container {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.container-full {
+    width: 100%;
+    margin: 0;
+    height: auto;
+}
+
+.cards {
+    margin-top: 50px;
+}
+
+.card {
+    width: 300px;
+    float: left;
+    margin: 25px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.card img {
+    z-index: 100;
+}
+
+.card>p,.card>h3 {
+    padding:5px 15px 10px 15px;
+    text-align: justify;
+    text-justify: newspaper
+}
+
+.card .overlay {
+    width: 270px;
+    height: 170px;
+    text-align: justify;
+    position: absolute;
+    padding: 15px;
+    background: #ccccccaa;
+    top: -200px;
+    transition: all 500ms;
+}
+
+.card:hover .overlay {
+    top: 0px;
+}
+
+.about {
+    height: 500px;
+    padding: 40px;
+}
+
+.about img {}
+
+.about .description {
+    width: calc(100% - 580px);
+    height: 100%;
+    padding: 0 40px;
+}
+
+.about .description p {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.review {
+    background: url('../image/666288.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.review .overlay {
+    width: 100%;
+    height: 100%;
+    background: #cccccc99;
+}
+
+.review .overlay h1 {
+    padding-top: 30px;
+}
+
+#form {
+    width: 500px;
+}
+
+.form-input {
+    margin: 10px 0;
+}
+
+.form-input input[type='text'], .form-input textarea {
+    border: none;
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+    padding: 2px 5px;
+}
+
+.form-input textarea {
+    height: 100px;
+}
+
+footer {
+    height: 50px;
+    background: #464545;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.btn {
+    border: none;
+    margin: 2px;
+    padding: 7px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-block {
+    width: 99%;
+}
+
+a.btn-block {
+    padding-right: 35%;
+    padding-left: 35%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.btn-prim {
+    background: #004e8a;
+}
+
+.btn-green {
+    background: #004c1d;
+}
+
+.btn-red {
+    background: #bb1939;
+}
+
+.clearfix {
+    clear: both;
+}

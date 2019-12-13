@@ -1,0 +1,57 @@
+#banner {
+    height: 70px;
+    background: #1B3351;
+    color: white;
+}
+
+#banner ul li {
+    display: inline-block;
+    padding: 20px 10px;
+    color:#d2d2d2;
+}
+
+#nav-side {
+    height: calc(100% - 70px);
+    background: #A5BDDA;
+    color: #212121;
+}
+
+#nav-side ul li {
+    padding: 15px 20px;
+    border-bottom: 1px solid #869db9;
+    transition:all 500ms;
+}
+
+#nav-side ul li:hover {
+    color: white;
+    background: #435670;
+}
+#main {
+    height: calc(100% - 70px);
+}
+
+article {
+    height: calc(100% - 40px);
+    background: #5C7492;
+}
+
+#footer {
+    height: 40px;
+    background: #02617d;
+}
+
+#copyright{
+    padding: 10px;
+}
+
+#sidebar {
+    width: 30%;
+}
+
+#main-section {
+    width: 70%;
+}
+
+.fa{
+    margin-left:9px ;
+}
