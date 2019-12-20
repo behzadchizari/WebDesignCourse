@@ -1,0 +1,31 @@
+ul.galary:hover li {
+    width: 40px;
+}
+
+
+ul.galary li:hover {
+    width: 800px;
+}
+
+ul.galary li:hover div.desc {
+    top: 0;
+}
+
+ul.galary li:hover img {
+    filter:blur(10px);
+}
+
+ul.galary li:hover div.desc a.btn {
+    bottom: 10%;
+}
+
+ul.galary li:hover .desc .desc-head {
+    left: 0;
+}
+
+ul.galary li:hover .desc .desc-parag {
+    transform: scale(1);
+}
+ul.galary li:hover .desc input{
+    left: 95px;
+}
